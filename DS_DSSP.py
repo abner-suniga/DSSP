@@ -39,7 +39,7 @@ def DS_DSSP(input_seq):
 
     predict = model.predict(input_vec, batch_size=1, verbose=0)[0, 0]
     
-    print ('Donor site probability: {}'.format(predict))
+    print (predict)
 
     return predict
 
